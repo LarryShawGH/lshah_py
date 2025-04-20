@@ -1,0 +1,262 @@
+
+[     UTC     ] Logs for lshah-chatbot.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[22:17:25] 🖥 Provisioning machine...
+[22:17:25] 🎛 Preparing system...
+[22:17:25] ⛓ Spinning up manager process...
+[22:17:25] 🚀 Starting up repository: 'lshah_py', branch: 'master', main module: 'try.py'
+[22:17:25] 🐙 Cloning repository...
+[22:17:25] 🐙 Cloning into '/mount/src/lshah_py'...
+
+[22:17:25] 🐙 Cloned repository!
+[22:17:25] 🐙 Pulling code changes from Github...
+[22:17:25] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:
+  ╰─▶ Because pywin32==310 has no wheels with a matching Python implementation
+      tag and you require pywin32==310, we can conclude that your requirements
+      are unsatisfiable.
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Resolved 4 packages in 126ms
+Prepared 4 packages in 138ms
+Installed 4 packages in 14ms
+ + [2025-04-20 22:17:27.519451] markdown-it-py==3.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.1
+ + rich==14.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting annotated-types==0.7.0 (from -r /mount/src/lshah_py/requirements.txt (line 1))
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting anyio==4.9.0 (from -r /mount/src/lshah_py/requirements.txt (line 2))
+  Downloading anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting argon2-cffi==23.1.0 (from -r /mount/src/lshah_py/requirements.txt (line 3))
+  Downloading argon2_cffi-23.1.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting argon2-cffi-bindings==21.2.0 (from -r /mount/src/lshah_py/requirements.txt (line 4))
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting arrow==1.3.0 (from -r /mount/src/lshah_py/requirements.txt (line 5))
+  Downloading arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting asttokens==3.0.0 (from -r /mount/src/lshah_py/requirements.txt (line 6))
+  Downloading asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting async-lru==2.0.5 (from -r /mount/src/lshah_py/requirements.txt (line 7))
+  Downloading async_lru-2.0.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting attrs==25.3.0 (from -r /mount/src/lshah_py/requirements.txt (line 8))
+  Downloading attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting babel==2.17.0 (from -r /mount/src/lshah_py/requirements.txt (line 9))
+  Downloading babel-2.17.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting beautifulsoup4==4.13.4 (from -r /mount/src/lshah_py/requirements.txt (line 10))
+  Downloading beautifulsoup4-4.13.4-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach==6.2.0 (from -r /mount/src/lshah_py/requirements.txt (line 11))
+  Downloading bleach-6.2.0-py3-none-any.whl.metadata (30 kB)
+Collecting cachetools==5.5.2 (from -r /mount/src/lshah_py/requirements.txt (line 12))
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting certifi==2025.1.31 (from -r /mount/src/lshah_py/requirements.txt (line 13))
+  Downloading certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+Collecting cffi==1.17.1 (from -r /mount/src/lshah_py/requirements.txt (line 14))
+  Downloading cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting charset-normalizer==3.4.1 (from -r /mount/src/lshah_py/requirements.txt (line 15))
+  Downloading charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+Collecting colorama==0.4.6 (from -r /mount/src/lshah_py/requirements.txt (line 16))
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting comm==0.2.2 (from -r /mount/src/lshah_py/requirements.txt (line 17))
+  Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy==1.8.14 (from -r /mount/src/lshah_py/requirements.txt (line 18))
+  Downloading debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
+Collecting decorator==5.2.1 (from -r /mount/src/lshah_py/requirements.txt (line 19))
+  Downloading decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting defusedxml==0.7.1 (from -r /mount/src/lshah_py/requirements.txt (line 20))
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting executing==2.2.0 (from -r /mount/src/lshah_py/requirements.txt (line 21))
+  Downloading executing-2.2.0-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting fastjsonschema==2.21.1 (from -r /mount/src/lshah_py/requirements.txt (line 22))
+  Downloading fastjsonschema-2.21.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting fqdn==1.5.1 (from -r /mount/src/lshah_py/requirements.txt (line 23))
+  Downloading fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting google-ai-generativelanguage==0.6.15 (from -r /mount/src/lshah_py/requirements.txt (line 24))
+  Downloading google_ai_generativelanguage-0.6.15-py3-none-any.whl.metadata (5.7 kB)
+Collecting google-api-core==2.24.2 (from -r /mount/src/lshah_py/requirements.txt (line 25))
+  Downloading google_api_core-2.24.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting google-api-python-client==2.167.0 (from -r /mount/src/lshah_py/requirements.txt (line 26))
+  Downloading google_api_python_client-2.167.0-py2.py3-none-any.whl.metadata (6.7 kB)
+Collecting google-auth==2.39.0 (from -r /mount/src/lshah_py/requirements.txt (line 27))
+  Downloading google_auth-2.39.0-py2.py3-none-any.whl.metadata (6.2 kB)
+Collecting google-auth-httplib2==0.2.0 (from -r /mount/src/lshah_py/requirements.txt (line 28))
+  Downloading google_auth_httplib2-0.2.0-py2.py3-none-any.whl.metadata (2.2 kB)
+Collecting google-generativeai==0.8.5 (from -r /mount/src/lshah_py/requirements.txt (line 29))
+  Downloading google_generativeai-0.8.5-py3-none-any.whl.metadata (3.9 kB)
+Collecting googleapis-common-protos==1.70.0 (from -r /mount/src/lshah_py/requirements.txt (line 30))
+  Downloading googleapis_common_protos-1.70.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting grpcio==1.71.0 (from -r /mount/src/lshah_py/requirements.txt (line 31))
+  Downloading grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+Collecting grpcio-status==1.71.0 (from -r /mount/src/lshah_py/requirements.txt (line 32))
+  Downloading grpcio_status-1.71.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting h11==0.14.0 (from -r /mount/src/lshah_py/requirements.txt (line 33))
+  Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting httpcore==1.0.8 (from -r /mount/src/lshah_py/requirements.txt (line 34))
+  Downloading httpcore-1.0.8-py3-none-any.whl.metadata (21 kB)
+Collecting httplib2==0.22.0 (from -r /mount/src/lshah_py/requirements.txt (line 35))
+  Downloading httplib2-0.22.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting httpx==0.28.1 (from -r /mount/src/lshah_py/requirements.txt (line 36))
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting idna==3.10 (from -r /mount/src/lshah_py/requirements.txt (line 37))
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting ipykernel==6.29.5 (from -r /mount/src/lshah_py/requirements.txt (line 38))
+  Downloading ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
+Collecting ipython==9.1.0 (from -r /mount/src/lshah_py/requirements.txt (line 39))
+  Downloading ipython-9.1.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting ipython_pygments_lexers==1.1.1 (from -r /mount/src/lshah_py/requirements.txt (line 40))
+  Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+Collecting isoduration==20.11.0 (from -r /mount/src/lshah_py/requirements.txt (line 41))
+  Downloading isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting jedi==0.19.2 (from -r /mount/src/lshah_py/requirements.txt (line 42))
+  Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting Jinja2==3.1.6 (from -r /mount/src/lshah_py/requirements.txt (line 43))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting json5==0.12.0 (from -r /mount/src/lshah_py/requirements.txt (line 44))
+  Downloading json5-0.12.0-py3-none-any.whl.metadata (36 kB)
+Collecting jsonpointer==3.0.0 (from -r /mount/src/lshah_py/requirements.txt (line 45))
+  Downloading jsonpointer-3.0.0-py2.py3-none-any.whl.metadata (2.3 kB)
+Collecting jsonschema==4.23.0 (from -r /mount/src/lshah_py/requirements.txt (line 46))
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting jsonschema-specifications==2024.10.1 (from -r /mount/src/lshah_py/requirements.txt (line 47))
+  Downloading jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting jupyter-events==0.12.0 (from -r /mount/src/lshah_py/requirements.txt (line 48))
+  Downloading jupyter_events-0.12.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting jupyter-lsp==2.2.5 (from -r /mount/src/lshah_py/requirements.txt (line 49))
+  Downloading jupyter_lsp-2.2.5-py3-none-any.whl.metadata (1.8 kB)
+Collecting jupyter_client==8.6.3 (from -r /mount/src/lshah_py/requirements.txt (line 50))
+  Downloading jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter_core==5.7.2 (from -r /mount/src/lshah_py/requirements.txt (line 51))
+  Downloading jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting jupyter_server==2.15.0 (from -r /mount/src/lshah_py/requirements.txt (line 52))
+  Downloading jupyter_server-2.15.0-py3-none-any.whl.metadata (8.4 kB)
+Collecting jupyter_server_terminals==0.5.3 (from -r /mount/src/lshah_py/requirements.txt (line 53))
+  Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl.metadata (5.6 kB)
+Collecting jupyterlab==4.4.0 (from -r /mount/src/lshah_py/requirements.txt (line 54))
+  Downloading jupyterlab-4.4.0-py3-none-any.whl.metadata (16 kB)
+Collecting jupyterlab_pygments==0.3.0 (from -r /mount/src/lshah_py/requirements.txt (line 55))
+  Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting jupyterlab_server==2.27.3 (from -r /mount/src/lshah_py/requirements.txt (line 56))
+  Downloading jupyterlab_server-2.27.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting MarkupSafe==3.0.2 (from -r /mount/src/lshah_py/requirements.txt (line 57))
+  Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Collecting matplotlib-inline==0.1.7 (from -r /mount/src/lshah_py/requirements.txt (line 58))
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+Collecting mistune==3.1.3 (from -r /mount/src/lshah_py/requirements.txt (line 59))
+  Downloading mistune-3.1.3-py3-none-any.whl.metadata (1.8 kB)
+Collecting nbclient==0.10.2 (from -r /mount/src/lshah_py/requirements.txt (line 60))
+  Downloading nbclient-0.10.2-py3-none-any.whl.metadata (8.3 kB)
+Collecting nbconvert==7.16.6 (from -r /mount/src/lshah_py/requirements.txt (line 61))
+  Downloading nbconvert-7.16.6-py3-none-any.whl.metadata (8.5 kB)
+Collecting nbformat==5.10.4 (from -r /mount/src/lshah_py/requirements.txt (line 62))
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting nest-asyncio==1.6.0 (from -r /mount/src/lshah_py/requirements.txt (line 63))
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting notebook==7.4.0 (from -r /mount/src/lshah_py/requirements.txt (line 64))
+  Downloading notebook-7.4.0-py3-none-any.whl.metadata (10 kB)
+Collecting notebook_shim==0.2.4 (from -r /mount/src/lshah_py/requirements.txt (line 65))
+  Downloading notebook_shim-0.2.4-py3-none-any.whl.metadata (4.0 kB)
+Collecting overrides==7.7.0 (from -r /mount/src/lshah_py/requirements.txt (line 66))
+  Downloading overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting packaging==25.0 (from -r /mount/src/lshah_py/requirements.txt (line 67))
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pandocfilters==1.5.1 (from -r /mount/src/lshah_py/requirements.txt (line 68))
+  Downloading pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting parso==0.8.4 (from -r /mount/src/lshah_py/requirements.txt (line 69))
+  Downloading parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+Collecting platformdirs==4.3.7 (from -r /mount/src/lshah_py/requirements.txt (line 70))
+  Downloading platformdirs-4.3.7-py3-none-any.whl.metadata (11 kB)
+Collecting prometheus_client==0.21.1 (from -r /mount/src/lshah_py/requirements.txt (line 71))
+  Downloading prometheus_client-0.21.1-py3-none-any.whl.metadata (1.8 kB)
+Collecting prompt_toolkit==3.0.51 (from -r /mount/src/lshah_py/requirements.txt (line 72))
+  Downloading prompt_toolkit-3.0.51-py3-none-any.whl.metadata (6.4 kB)
+Collecting proto-plus==1.26.1 (from -r /mount/src/lshah_py/requirements.txt (line 73))
+  Downloading proto_plus-1.26.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting protobuf==5.29.4 (from -r /mount/src/lshah_py/requirements.txt (line 74))
+  Downloading protobuf-5.29.4-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Collecting psutil==7.0.0 (from -r /mount/src/lshah_py/requirements.txt (line 75))
+  Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+Collecting pure_eval==0.2.3 (from -r /mount/src/lshah_py/requirements.txt (line 76))
+  Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+Collecting pyasn1==0.6.1 (from -r /mount/src/lshah_py/requirements.txt (line 77))
+  Downloading pyasn1-0.6.1-py3-none-any.whl.metadata (8.4 kB)
+Collecting pyasn1_modules==0.4.2 (from -r /mount/src/lshah_py/requirements.txt (line 78))
+  Downloading pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting pycparser==2.22 (from -r /mount/src/lshah_py/requirements.txt (line 79))
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting pydantic==2.11.3 (from -r /mount/src/lshah_py/requirements.txt (line 80))
+  Downloading pydantic-2.11.3-py3-none-any.whl.metadata (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.2/65.2 kB 110.5 MB/s eta 0:00:00[2025-04-20 22:17:36.504294] 
+Collecting pydantic_core==2.33.1 (from -r /mount/src/lshah_py/requirements.txt (line 81))
+  Downloading pydantic_core-2.33.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting Pygments==2.19.1 (from -r /mount/src/lshah_py/requirements.txt (line 82))
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting pyparsing==3.2.3 (from -r /mount/src/lshah_py/requirements.txt (line 83))
+  Downloading pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Collecting python-dateutil==2.9.0.post0 (from -r /mount/src/lshah_py/requirements.txt (line 84))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting python-dotenv==1.1.0 (from -r /mount/src/lshah_py/requirements.txt (line 85))
+  Downloading python_dotenv-1.1.0-py3-none-any.whl.metadata (24 kB)
+Collecting python-json-logger==3.3.0 (from -r /mount/src/lshah_py/requirements.txt (line 86))
+  Downloading python_json_logger-3.3.0-py3-none-any.whl.metadata (4.0 kB)
+ERROR: Could not find a version that satisfies the requirement pywin32==310 (from versions: none)
+ERROR: No matching distribution found for pywin32==310
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 12.2 MB/s eta 0:00:00
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 109.7 MB/s eta 0:00:00[2025-04-20 22:17:40.539388] 
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 66.2 MB/s eta 0:00:00[2025-04-20 22:17:40.573955] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.1
+    Uninstalling Pygments-2.19.1:
+      Successfully uninstalled Pygments-2.19.1
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[22:17:43] ❗️ installer returned a non-zero exit code
+[22:17:43] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
