@@ -5,9 +5,9 @@ import streamlit as st
 
 load_dotenv()
 
-api_key = os.environ.get("GEMINI_API_KEY")
-if not api_key:
-    raise Exception("GEMINI_API_KEY not set in .env")
+#api_key = os.environ.get("GEMINI_API_KEY")
+#if not api_key:
+#    raise Exception("GEMINI_API_KEY not set in .env")
 
 # Get API key from Streamlit secrets
 api_key = st.secrets.get("GEMINI_API_KEY")
